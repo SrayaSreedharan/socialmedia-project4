@@ -1,0 +1,56 @@
+.explore-containers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+.sidebar-profile {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+  }
+.explore-cards {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  width: 100%;
+  max-width: 300px;
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+.explore-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.explore-img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.explore-info strong {
+  font-size: 1rem;
+  color: #333;
+}
+.follow-btns {
+  background-color: #938eef;
+  border: none;
+  color: white;
+  padding: 6px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 80px;
+  margin-left: 180px;
+  margin-top: -200px;
+}
+
+.follow-btn:hover {
+  background-color: #6f63c7;
+}

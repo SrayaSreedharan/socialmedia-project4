@@ -1,0 +1,128 @@
+.login2{
+    min-height: 100vh;
+    background-color: rgb(193, 190, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    .card2 {
+      width: 50%;
+      display: flex;
+      background-color: white;
+      border-radius: 10px;
+      height: 600px;
+     
+      .left2 {
+        flex: 1;
+        background: linear-gradient(rgba(39, 11, 96, 0.5), rgba(39, 11, 96, 0.5)),
+          url("https://images.pexels.com/photos/3228727/pexels-photo-3228727.jpeg?auto=compress&cs=tinysrgb&w=1600")
+            center;
+        background-size: cover;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        color: white;
+
+        h1 {
+          font-size: 50px;
+          line-height: 100px;
+        }
+}
+.right2 {
+        flex: 1;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+
+        h1 {
+        color: #555;
+        margin-top: 40px;
+    
+        }
+        
+        .frrm{
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          
+          input {
+          border: none;
+          border-bottom: 1px solid lightgray;
+          padding: 20px 10px;
+         
+          }
+          
+          .butn {
+            width: 50%;
+            padding: 10px;
+            border: none;
+            background-color: #938eef;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            
+          }
+        }
+      }
+    }
+  }
+@media screen and (max-width: 600px) {
+        .login2 {
+          flex-direction: column;
+          height: 1000px;
+      
+          .card2 {
+            flex-direction: column;
+            width: 350px;
+            height: auto;
+            margin-top: 10px;
+          }
+      
+          .left2 {
+            background-position: top;
+            padding: 30px;
+            gap: 20px;
+           
+          }
+      
+          .right2 {
+            padding: 30px;
+      
+            h1 {
+              text-align: center;
+              margin-top: 20px;
+            }
+      
+            .frrm {
+              gap: 20px;
+              height: 400px;
+              border-radius: 0px;
+      
+              input {
+                padding: 15px;
+                width: 100%;
+              }
+      
+              .butn {
+                width: 100%;
+                margin: 0;
+              }
+      
+              h6 {
+                margin-top: -20px;
+              }
+            }
+        }
+    }
+}
+      
+
+    
+        
+
+
+    
+  
