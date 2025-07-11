@@ -8,7 +8,6 @@ import Modal from 'react-bootstrap/Modal';
 import { MdDelete, MdEdit } from 'react-icons/md';
 import { MessageSquarePlus } from 'lucide-react';
 
-
 const SidebarProfile = () => {
   const[data,setData]=useState([])
   const[postdata,setPostdata]=useState({})
